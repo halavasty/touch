@@ -1,0 +1,206 @@
+@font-face {
+	font-family:'Gilroy-SemiBold'; 
+	src: url(./fonts/Gilroy-SemiBold.ttf); 
+}
+@font-face {
+	font-family:'Gilroy-Medium'; 
+	src: url(./fonts/Gilroy-Medium.ttf); 
+}
+.Conteiner{
+position: absolute;
+width: 260px;
+height: 975px;
+left: 500nnpx;
+top: 100px;
+background: #FFFFFF;
+box-shadow: inset -1px 0px 0px #DFE5F1;
+border: 1px solid black;
+}
+.Logo{
+background: url(./image/colorfilter.png) no-repeat;
+position: absolute;
+width: 28px;
+height: 28px;
+left: 30px;
+top: 35px;
+}
+.TextLogo{
+position: absolute;
+width: 52px;
+height: 21px;
+left: 68px;
+top: 42px;
+font-family: 'Gilroy-SemiBold';
+font-size: 17px;
+line-height: 20px;
+color: #000000;
+}
+.Avatar{
+background: url(./image/Avatar.png) no-repeat;
+position: absolute;
+width: 34px;
+height: 34px;
+left: 30px;
+top: 113px;
+border-radius: 201.875px;
+}
+.TextAvatar{
+position: absolute;
+width: 98px;
+height: 20px;
+left: 74px;
+top: 113px;
+font-family: 'Gilroy-SemiBold';
+font-size: 16px;
+line-height: 19px;
+color: #000000;
+}
+.Line{
+position: absolute;
+width: 200px;
+height: 0px;
+left: 30px;
+top: 175px;
+border-bottom: 1px solid #DFE5F1;
+height: 1px;
+width: 200px;
+}
+.DashboardConteiner{
+position: absolute;
+width: 125px;
+height: 24px;
+left: 30px;
+top: 215px;
+}
+.DashboardLogo{
+    background: url(./image/Icon/flash-circle.png) no-repeat;
+    position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+}
+.DashboardText{
+    position: absolute;
+    width: 83px;
+    height: 19px;
+    left: 40px;
+    top: 3px; 
+    font-family: 'Gilroy-Medium';
+    font-size: 16px;
+    line-height: 19px;
+    color: #141736;
+    cursor: pointer;   
+}
+.ChatConteiner{
+position: absolute;
+width: 125px;
+height: 24px;
+left: 30px;
+top: 269px;
+}
+.ChatLogo{
+background: url(./image/Icon/message-text.png);
+ position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+}
+.ChatText{
+    position: absolute;
+    width: 38px;
+    height: 19px;
+    left: 40px;
+    top: 3px;
+    font-family: 'Gilroy-Medium';
+    font-size: 16px;
+    line-height: 19px;
+    color: #141736; 
+    cursor: pointer;
+}
+.MyCourseConteiner{
+    position: absolute;
+    width: 125px;
+    height: 24px;
+    left: 30px;
+    top: 323px;
+}
+.MyCourseLogo{
+    background: url(./image/Icon/teacher.png);
+    position: absolute;
+   width: 24px;
+   height: 24px;
+   left: 0px;
+   top: 0px;
+}
+.MyCourseText{
+    position: absolute;
+    width: 77px;
+    height: 19px;
+    left: 40px;
+    top: 3px;
+    font-family: 'Gilroy-Medium';
+    font-size: 16px;
+    line-height: 19px;
+    color: #141736; 
+    cursor: pointer;
+}
+.MyAccountConteiner{
+    position: absolute;
+    width: 125px;
+    height: 24px;
+    left: 30px;
+    top: 377px;
+}
+.MyAccountLogo{
+  background: url(./image/Icon/flash-circle.png) no-repeat;
+ position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+}
+.MyAccountText{
+    position: absolute;
+    width: 87px;
+    height: 19px;
+    left: 40px;
+    top: 3px; 
+    font-family: 'Gilroy-Medium';
+    font-size: 16px;
+    line-height: 19px;
+    color: #141736;
+    cursor: pointer;
+}
+.LogoutConteiner{
+    position: absolute;
+width: 125px;
+height: 24px;
+left: 30px;
+top: 799px;
+}
+.LogoutLogo{
+    background: url(./image/Icon/login.png) no-repeat;
+ position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+}
+.LogoutButton{
+position: absolute;
+width: 70px;
+height: 19px;
+left: 35px;
+top: 3px;
+text-align: center;
+font-family: 'Gilroy-Medium';
+font-size: 16px;
+line-height: 19px;
+color: #141736;
+border: none;
+background:none;
+}
+
+/* убрать все повторы обязательно */
