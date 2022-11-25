@@ -1,0 +1,21 @@
+.notification {
+    position: absolute;
+    background: url(../../assets/bell.svg) no-repeat;
+    width:24px;
+    Height: 24px;
+    margin-left: 23px;
+    margin-top: 28px;
+    border:none;
+    cursor:pointer;
+}
+
+.badge {
+    position:relative;
+    background: #FE6470;
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    margin-left: 9px;
+    margin-bottom: 15px;
+}
+
